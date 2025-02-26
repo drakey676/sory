@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maaf Sayang</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #ffe6e6;
+        padding: 50px;
+      }
+      .container {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: inline-block;
+        max-width: 90%;
+      }
+      h1 {
+        color: #ff4d4d;
+      }
+      p {
+        color: #333;
+      }
+      .heart {
+        font-size: 50px;
+        color: red;
+      }
+      button {
+        background-color: #ff4d4d;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+      button:hover {
+        background-color: #cc0000;
+      }
+      @media (max-width: 600px) {
+        body {
+          padding: 20px;
+        }
+        .container {
+          padding: 15px;
+        }
+        h1 {
+          font-size: 24px;
+        }
+        p {
+          font-size: 14px;
+        }
+        .heart {
+          font-size: 40px;
+        }
+        button {
+          font-size: 14px;
+          padding: 8px 16px;
+        }
+      }
+    </style>
+    <script>
+      function redirectToFlowerPage() {
+        window.location.href = "flower.html";
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Maaf ya, Sayang ❤️</h1>
+      <p>
+        Aku benar-benar minta maaf kalo aku ada salah sama kamu. Aku tidak ingin
+        melihat kamu sedih.
+      </p>
+      <p>Bisakah kamu memaafkanku? Aku janji akan berusaha lebih baik lagi.</p>
+      <div class="heart">❤️❤️❤️</div>
+      <button onclick="redirectToFlowerPage()">Maafkan Aku</button>
+    </div>
+  </body>
+</html>
